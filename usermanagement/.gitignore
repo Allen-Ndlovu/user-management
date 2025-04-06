@@ -1,0 +1,12 @@
+# Build output
+bin/
+out/
+
+# IDE files
+*.iml
+.idea/
+
+# Config file with sensitive info
+config.properties
+
+

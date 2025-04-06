@@ -1,0 +1,14 @@
+# Maven target folder
+target/
+
+# IDE files
+*.iml
+.idea/
+.classpath
+.project
+
+# Config file with sensitive info
+config.properties
+
+# Logs
+*.log
