@@ -1,14 +1,24 @@
-# Maven target folder
-target/
+# Maven build directory
+/target/
 
-# IDE files
-*.iml
-.idea/
-.classpath
+# Eclipse files
 .project
+.classpath
+.settings/
 
-# Config file with sensitive info
-config.properties
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# VS Code
+.vscode/
 
 # Logs
 *.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive configuration (store real values locally, commit only *.example)
+src/main/resources/application.properties

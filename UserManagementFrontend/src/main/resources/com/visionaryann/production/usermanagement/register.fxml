@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.visionaryann.production.usermanagement.controllers.RegisterController">
+    <Label text="Register" styleClass="header"/>
+    <TextField fx:id="username" promptText="Username"/>
+    <TextField fx:id="email" promptText="Email"/>
+    <PasswordField fx:id="password" promptText="Password"/>
+    <Button text="Sign Up" onAction="#handleRegister"/>
+    <Hyperlink text="Back to Login" onAction="#goToLogin"/>
+    <Label fx:id="message"/>
+</VBox>

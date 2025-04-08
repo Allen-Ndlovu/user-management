@@ -1,0 +1,145 @@
+#leftside{
+    -fx-background-color: #343A40;
+    -fx-alignment: center;
+}
+
+#topside{
+    -fx-background-color: #343A40;
+    -fx-alignment: center;
+}
+
+#text{
+    -fx-text-fill:  #ffff;
+
+}
+
+#rightside{
+    -fx-background-color: #ffff;
+    -fx-text-alignment: center;
+
+
+
+}
+#logoutButton{
+    -fx-background-color: #007BFF;
+    -fx-text-fill:  #ffff;
+    -fx-alignment: center;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+
+}
+#backButton{
+    -fx-background-color: #28A745;
+    -fx-text-fill:  #ffff;
+    -fx-alignment: center;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+
+}
+
+
+Button{
+    -fx-background-color: #ffff;
+    -fx-alignment: center;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+
+
+
+}
+
+#Button:hover{
+    -fx-background-color: #0a4780;
+
+}
+
+#backButton:hover{
+    -fx-background-color: #ffff;
+    -fx-text-fill: #28A745;
+
+}
+
+
+.Activebutton{
+    -fx-background-color: #007BFF;
+    -fx-text-fill:  #ffff;
+    -fx-alignment: center;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.iconButton{
+    -fx-background-color: #343A40;
+}
+#circleButton{
+    -fx-background-radius: 100%;
+}
+.my-text-fields:hover{
+    -fx-effect: dropshadow(three-pass-box, rgb(52, 134, 228), 2.5, 1, 0, 0);
+}
+
+.Dpit{
+    -fx-cursor: hand;
+}
+
+.default-color0.chart-pie{
+    -fx-pie-color: #007BFF;
+}
+
+.default-color1.chart-pie{
+    -fx-pie-color: #ffffff;
+}
+lineYAxis{
+    -fx-stroke: red;
+
+}
+.chart-series-line {
+    -fx-stroke: red
+; /* Change the line color /
+    -fx-stroke-width: 2px; / Adjust the width of the line /
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: blue, white; / Change the color of the dots on the line /
+}
+
+.default-color1.chart-series-line {
+    -fx-stroke: red; / Change the second line's color /
+}
+
+.default-color1.chart-line-symbol {
+    -fx-background-color: red, white; / Change the second line's dots color */
+}
+.chart-line-symbol {
+    -fx-background-color: transparent; /* Make the symbol transparent */
+    -fx-background-insets: 0; /* Remove insets */
+    -fx-padding: 0; /* Remove padding */
+}
+
+.choice-box {
+    -fx-background-color: transparent; /* Make the background transparent */
+    -fx-border-color: transparent; /* Make the border transparent */
+    -fx-text-fill: black; /* Text color for options */
+}
+
+.choice-box .list-view {
+    -fx-background-color: white; /* Background color of the dropdown */
+    -fx-border-color: black; /* Border color of the dropdown */
+}
+
+.choice-box .arrow {
+    -fx-background-color: black; /* Make the dropdown arrow transparent */
+}
+
+.default-text {
+    -fx-opacity: 0.5; /* Make the default text slightly transparent */
+}
+
+.choice-box .label {
+    -fx-font-weight: bold;
+}
+

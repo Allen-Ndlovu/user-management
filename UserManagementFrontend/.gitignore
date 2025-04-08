@@ -1,0 +1,22 @@
+# Maven / JavaFX build output
+/target/
+/out/
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive configuration
+config.properties

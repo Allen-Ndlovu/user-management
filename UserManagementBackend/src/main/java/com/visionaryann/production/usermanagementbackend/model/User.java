@@ -1,25 +1,25 @@
 package com.visionaryann.production.usermanagementbackend.model;
 
-import jakarta.persistence.*;
-import lombok.*;
-
 import javax.persistence.*;
+import javax.validation.constraints.*;
 
 @Entity
 @Table(name = "users")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(unique = true)
+    @NotBlank @Column(unique = true)
     private String username;
 
+    @NotBlank
     private String password;
+
+    @Email @NotBlank @Column(unique = true)
     private String email;
-    private String role;
-    private boolean active = true;
+
+    @NotBlank
+    private String role = "USER";
+
+    // getters and setters omitted for brevity
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.visionaryann.production.usermanagement.controllers.ProfileController">
+    <Label text="Your Profile" styleClass="header"/>
+    <Label text="Username:"/><Label fx:id="lblUsername"/>
+    <Label text="Email:"/><Label fx:id="lblEmail"/>
+    <Label text="New Email:"/><TextField fx:id="newEmail"/>
+    <Label text="New Password:"/><PasswordField fx:id="newPassword"/>
+    <Button text="Update" onAction="#handleUpdate"/>
+    <Button text="About Me" onAction="#goToAbout"/>
+    <Label fx:id="message"/>
+</VBox>
