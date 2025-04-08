@@ -1,6 +1,7 @@
 # Maven / JavaFX build output
 /target/
 /out/
+.idea/
 
 # Eclipse files
 .project
@@ -20,3 +21,4 @@ Thumbs.db
 
 # Sensitive configuration
 config.properties
+
