@@ -1,51 +1,43 @@
-About This Project: User Management System
-The User Management System is a full-stack application built with a JavaFX frontend and a Spring Boot backend. It provides secure user registration, login, role-based access control, and profile management. The application integrates a PostgreSQL database and applies best practices for architecture, security, and maintainability.
+# User Management System
 
-Technologies Used
-Frontend:
-JavaFX
+The **User Management System** is a full-stack application developed using **JavaFX (Frontend)** and **Spring Boot (Backend)**. It enables secure registration, login, and role-based access control for users with features like profile management and authentication using JWT. The application uses a PostgreSQL database and follows a modular, config-driven approach.
 
-FXML
 
-CSS for styling
 
-Java HTTP Client
+## Features
 
-ObjectMapper (Jackson)
+- Secure user registration and login
+- JWT-based authentication
+- Role-based access control (Admin, User)
+- User profile viewing and editing
+- Config file for environment setup
+- Integrated frontend with JavaFX and backend API
+- Git-ignored sensitive files
+- Clean and responsive UI
 
-Backend:
-Spring Boot
+---
 
-Spring Security (JWT)
+## Tech Stack
 
-JPA / Hibernate
+### Frontend
+- Java 17+
+- JavaFX
+- FXML
+- HTTP Client
+- Jackson (for JSON parsing)
 
-PostgreSQL
+### Backend
+- Java 17+
+- Spring Boot
+- Spring Security
+- Spring Data JPA (Hibernate)
+- PostgreSQL
+- JWT (JSON Web Token)
 
-REST API
+### Dev Tools
+- IntelliJ IDEA / Visual Studio Code
+- Maven
+- Git & GitHub
+- Postman (API testing)
 
-Development Tools:
-Maven
-
-IntelliJ IDEA / Visual Studio Code
-
-Git & GitHub
-
-Postman (for testing APIs)
-
-Features
-JWT-based user authentication and authorization
-
-Role-based access control (Admin, User)
-
-User registration and login
-
-Secure password encryption
-
-Update user profile and user listing
-
-Clean UI using JavaFX and FXML
-
-Config-driven setup (no hard-coded credentials)
-
-Git ignored sensitive files like config and tokens
+---
