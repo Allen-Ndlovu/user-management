@@ -21,4 +21,4 @@
 Thumbs.db
 
 # Sensitive configuration (store real values locally, commit only *.example)
-src/main/resources/application.properties
+resources/application.properties
